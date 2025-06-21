@@ -18,7 +18,7 @@ chain = prompt | model
 while True:
     print('\n\n-------------------------------------')
     question = input("Ask your question (q to quit):")
-    print('\n\n')
+    print('\n\n-------------------------------------')
     if question == 'q':
         break
     

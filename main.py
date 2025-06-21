@@ -3,7 +3,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from vector import retriever
 
 # model = OllamaLLM(model='deepseek-r1:latest')
-model = OllamaLLM(model='gemma3')
+# model = OllamaLLM(model='gemma3')
+model = OllamaLLM(model='llama3.2')
 
 template = """
 You are an expert in answering questions about a pizza restaurant
